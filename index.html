@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="ejercicio1">
+      <h1>DESAFÍO 2 JAVASCRIPT</h1>
+      <h2>Ejercicio 1</h2>
+      <img
+        class="imgcalico"
+        src="assets/imgs/gatocalico.jpeg"
+        alt="gato calico"
+        onclick="borderojo()"
+      />
+    </div>
+
+    <div class="ejercicio2">
+      <h2>Ejercicio 2</h2>
+
+      <p>Puedes llevar hasta 10 stickers</p>
+      <div class="stickers">
+        <div  class="sticker">
+          <img
+            class="sticker1"
+            src="assets/imgs/sticker1.png"
+            alt="dibujo gato naranjo"
+          />
+          <input type="number" class="cantstick1" value="0" min="0" max="10">
+        </div>
+        <div class="sticker">
+          <img
+            class="sticker2"
+            src="assets/imgs/sticker2.png"
+            alt="dibujo gato gris"
+          />
+          <input type="number" class="cantstick2" value="0" min="0" max="10">
+        </div>
+        <div class="sticker">
+          <img
+            class="sticker3"
+            src="assets/imgs/sticker3.png"
+            alt="dibujo gato calico"
+          />
+          <input type="number" class="cantstick3" value="0" min="0" max="10">
+
+          <p class="respuesta"></p>
+          <button onclick="suma()">LLEVAR</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="ejercicio3">
+
+
+        
+    </div>
+    <script src="assets/js/dom.js"></script>
+  </body>
+</html>

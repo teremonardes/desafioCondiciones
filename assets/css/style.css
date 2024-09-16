@@ -1,0 +1,64 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box
+}
+
+h1 {
+    font-family: "roboto Mono";
+    text-align: center;
+    margin-top: 2rem;
+}
+
+h2 {
+    font-family: "roboto Mono";
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+
+.imgcalico {
+
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.stickers {
+    display: flex;
+    margin: auto;
+    min-height: 100vh;
+    margin: 2rem;
+}
+
+.sticker {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.sticker1 {
+    height: 200px;
+    width:200px;
+}
+.sticker2 {
+    height: 200px;
+    width:200px;
+}
+.sticker3 {
+    height: 200px;
+    width:200px;
+}
+
+input {
+    width: 6rem;
+    margin-left: 3rem;
+ 
+}
+
+.ejercicio2 p {
+    font-family: "roboto mono";
+    margin: 2rem;
+    margin-left: 10rem;
+
+}

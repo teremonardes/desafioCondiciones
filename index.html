@@ -29,13 +29,13 @@
 
       <p>Puedes llevar hasta 10 stickers</p>
       <div class="stickers">
-        <div  class="sticker">
+        <div class="sticker">
           <img
             class="sticker1"
             src="assets/imgs/sticker1.png"
             alt="dibujo gato naranjo"
           />
-          <input type="number" class="cantstick1" value="0" min="0" max="10">
+          <input type="number" class="cantstick1" value="0" min="0" max="10" />
         </div>
         <div class="sticker">
           <img
@@ -43,7 +43,7 @@
             src="assets/imgs/sticker2.png"
             alt="dibujo gato gris"
           />
-          <input type="number" class="cantstick2" value="0" min="0" max="10">
+          <input type="number" class="cantstick2" value="0" min="0" max="10" />
         </div>
         <div class="sticker">
           <img
@@ -51,7 +51,7 @@
             src="assets/imgs/sticker3.png"
             alt="dibujo gato calico"
           />
-          <input type="number" class="cantstick3" value="0" min="0" max="10">
+          <input type="number" class="cantstick3" value="0" min="0" max="10" />
 
           <p class="respuesta"></p>
           <button onclick="suma()">LLEVAR</button>
@@ -60,9 +60,45 @@
     </div>
 
     <div class="ejercicio3">
+      <h2>Ejercicio 3</h2>
+      <div class="numero-container">
+        <select id="numero1">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
+        <select id="numero2">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
 
-
-        
+        <select id="numero3">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
+      </div>
+      <button class="verifica" onclick="password()">VERIFICAR</button>
+      <p class="password"></p>
     </div>
     <script src="assets/js/dom.js"></script>
   </body>

@@ -3,7 +3,10 @@
     padding:0;
     box-sizing: border-box
 }
-
+body {
+    display: flex;
+    flex-direction: column;
+}
 h1 {
     font-family: "roboto Mono";
     text-align: center;
@@ -28,7 +31,6 @@ h2 {
 .stickers {
     display: flex;
     margin: auto;
-    min-height: 100vh;
     margin: 2rem;
 }
 
@@ -62,3 +64,33 @@ input {
     margin-left: 10rem;
 
 }
+/* CSS EJERCICIO3  */
+
+.numero-container {
+    display: flex;
+    margin: auto;
+         align-items: center;
+       margin-left: 4rem;
+       margin-top: 2rem;
+         gap: 1rem; 
+  
+   
+}
+
+.verifica {
+   
+       margin-left: 5rem;
+       margin-top: 2rem;
+       margin-bottom: 2rem;
+}
+
+.password {
+   
+    margin-left: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-family: "roboto mono";
+}
+
+
+
